@@ -10,6 +10,11 @@ void main() {
           child: Text('I am Rich'),
         ),
       ),
+      body: Center(
+        child: Image(
+          image: AssetImage('images/diamond.png'),
+        ),
+      ),
     ),
   ));
 }
